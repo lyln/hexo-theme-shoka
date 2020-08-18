@@ -121,7 +121,7 @@ social:
 # `post` mode: add the front-matter variable `cover: image path`
 # `category` mode: put the cover image in the category corresponding directory, and named it `cover.jpg`
 index:
-  mode: post #or category
+  mode: category #or category
   # default cover for post
   cover: "linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%)"
   excerpt_description: true

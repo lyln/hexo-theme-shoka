@@ -243,9 +243,9 @@ const sidebarTOC = function () {
     };
 
     // TOC item animation navigate.
-    link.addEventListener('click', clickScroll);
-    anchor.querySelector('a.anchor').addEventListener('click', clickScroll);
-    return anchor;
+    // link.addEventListener('click', clickScroll);
+    // anchor.querySelector('a.anchor').addEventListener('click', clickScroll);
+    // return anchor;
   });
 
   var tocElement = $('.sidebar .panels .inner');
