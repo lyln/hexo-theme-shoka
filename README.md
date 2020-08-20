@@ -92,6 +92,35 @@ tags:
 
 ```
 
+云撸猫
+```
+npm install --save hexo-helper-live2d
+
+cnpm install live2d-widget-model-hijiki
+
+https://huaji8.top/post/live2d-plugin-2.0/
+
+
+live2d:
+  enable: true
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  debug: false
+  model:
+    use: live2d-widget-model-hijiki
+  display:
+    position: right
+    width: 150
+    height: 300
+  mobile:
+    show: true
+  react:
+    opacity: 0.7
+
+```
 
 ### 问题解决
 
