@@ -1,63 +1,18 @@
-# Hexo Theme Shoka
-
-## Usage
-
-1. Clone this repository
+# Hexo 主题 Shoka 食用说明
+[鱼干的小雨塘](https://yoogan.github.io/)
+[电影小站](https://v.inshub.cn/)
+1. 下载主题
 
 ``` bash
 # cd your-blog
-git clone https://github.com/amehime/hexo-theme-shoka.git ./themes/shoka
+git clone https://github.com/lyln/hexo-theme-shoka.git ./themes/shoka
 ```
 
-2. Make changes to the root `_config.yml`
+2. 修改网站 `_config.yml`
   - update `theme` fragment as `shoka`.
   - add the following fragments
-  ```
-  logo: Yume Shoka
-  email: you@example.com
-  category_map:
-  ```
 
-3. Install the necessary plugins
-  - [hexo-renderer-multi-markdown-it](https://www.npmjs.com/package/hexo-renderer-multi-markdown-it)
-  - [hexo-autoprefixer](https://www.npmjs.com/package/hexo-autoprefixer)
-  - [hexo-algoliasearch](https://www.npmjs.com/package/hexo-algoliasearch)
-  - [hexo-symbols-count-time](https://www.npmjs.com/package/hexo-symbols-count-time)
-  - [hexo-feed](https://www.npmjs.com/package/hexo-feed)
-
-4. Make changes to the theme `_config.yml`
-
-
-## 模版修改
-插件安装
-```
-npm un hexo-renderer-marked --save
-npm i hexo-renderer-multi-markdown-it --save
-
-npm install hexo-autoprefixer --save
-npm install hexo-symbols-count-time
-
-npm install hexo-feed --save-dev
-```
-
-
-## Hexo 主题 Shoka 食用说明
-
-安装依赖插件
-```
-npm un hexo-renderer-marked --save
-npm i hexo-renderer-multi-markdown-it --save
-
-```
-
-
-首页显示模式
-
-模版_config.yml
-```
-index:
-  mode: category #or category
-```
+修改主题显示为文件夹模式。
 
 站点_config.yml
 ```
@@ -73,13 +28,6 @@ category_map:
 
 ```
 
-md文件存放位置
-```
-source/_posts/pm-note
-
-cover.jpg
-xx.md 直接放置到分离文件夹下
-
 文章设置分类
 
 ---
@@ -90,9 +38,43 @@ categories:
 tags:
 ---
 
+3. 插件安装
+  - [hexo-renderer-multi-markdown-it](https://www.npmjs.com/package/hexo-renderer-multi-markdown-it)
+  - [hexo-autoprefixer](https://www.npmjs.com/package/hexo-autoprefixer)
+  - [hexo-algoliasearch](https://www.npmjs.com/package/hexo-algoliasearch)
+  - [hexo-symbols-count-time](https://www.npmjs.com/package/hexo-symbols-count-time)
+  - [hexo-feed](https://www.npmjs.com/package/hexo-feed)
+
+```
+npm un hexo-renderer-marked --save
+npm i hexo-renderer-multi-markdown-it --save
+
+npm install hexo-autoprefixer --save
+npm install hexo-symbols-count-time
+npm install hexo-algoliasearch
+
+npm install hexo-feed --save-dev
 ```
 
-云撸猫
+
+4. 修改主题 `_config.yml`
+
+模版_config.yml
+```
+index:
+  mode: category #or category
+```
+
+md文件存放位置
+```
+source/_posts/pm-note
+
+cover.jpg
+xx.md 直接放置到分离文件夹下
+
+```
+
+5. 新增云撸猫
 ```
 npm install --save hexo-helper-live2d
 
@@ -134,3 +116,10 @@ app.js
   // return anchor;
 
 ```
+### 站点效果
+[鱼干的小雨塘](https://yoogan.github.io/)
+
+### 其他
+需要其他帮助的欢迎一起探讨。
+0成本构建自己的电影网站，[电影小站](https://v.inshub.cn/)。
+![qr](https://lyln.oss-cn-beijing.aliyuncs.com/wx/qr-wx.jpg)
