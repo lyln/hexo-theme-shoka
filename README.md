@@ -1,5 +1,6 @@
 # Hexo 主题 Shoka 食用说明
 [鱼干的小雨塘](https://yoogan.github.io/)
+
 [电影小站](https://v.inshub.cn/)
 1. 下载主题
 
@@ -29,7 +30,7 @@ category_map:
 ```
 
 文章设置分类
-
+```
 ---
 title: 界面设计
 date: 2020-08-11 
@@ -37,7 +38,7 @@ categories:
   - ["产品设计"]
 tags:
 ---
-
+```
 3. 插件安装
   - [hexo-renderer-multi-markdown-it](https://www.npmjs.com/package/hexo-renderer-multi-markdown-it)
   - [hexo-autoprefixer](https://www.npmjs.com/package/hexo-autoprefixer)
@@ -122,4 +123,4 @@ app.js
 ### 其他
 需要其他帮助的欢迎一起探讨。
 0成本构建自己的电影网站，[电影小站](https://v.inshub.cn/)。
-![qr](https://lyln.oss-cn-beijing.aliyuncs.com/wx/qr-wx.jpg)
+![qr](https://lyln.oss-cn-beijing.aliyuncs.com/wx/qr-wx.jpg?430*430)
