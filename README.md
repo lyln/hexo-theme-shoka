@@ -123,4 +123,4 @@ app.js
 ### 其他
 需要其他帮助的欢迎一起探讨。
 0成本构建自己的电影网站，[电影小站](https://v.inshub.cn/)。
-![qr](https://lyln.oss-cn-beijing.aliyuncs.com/wx/qr-wx.jpg?430*430)
+![qr](https://lyln.oss-cn-beijing.aliyuncs.com/wx/qr-wx.jpg?430x430)
